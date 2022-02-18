@@ -1,0 +1,18 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+.text {
+    font-family: Taviraj;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+.text::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 65px;
+    background-color: #333333;
+}
